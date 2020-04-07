@@ -59,7 +59,7 @@ export default class Main extends Component {
 
       this.setState({
         repositories: [...repositories, data],
-        newRepo: '',
+        newRepo: ''
       });
     } catch (error) {
       this.setState({ error: true });
